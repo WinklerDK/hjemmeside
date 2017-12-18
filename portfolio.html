@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8">
+	<title>Portfolio</title>
+    <link rel="icon" type="logo/png" href="images/fanelogo.png"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="description" content="Portfolio, udkast af de cases/opgaver som jeg har lavet i løbet af studietiden">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+    
+<body>
+    <header>
+        
+        <h1 class="mobiloverskrift">
+    =Portfolio=
+    </h1>
+        
+         <a href="index.html">
+             <img class="logo" src="images/logo2.png" alt="Logo"></a>
+    
+        <nav class="menu2">
+            
+         <ul>
+               <li><a href="index.html">Hjem</a></li>
+               <li><a href="portfolio.html">Portfolio</a></li>
+               <li><a href="about.html">Om mig</a></li>
+               <li><a href="https://martinwinklerblog.wordpress.com/" target="_blank">Blog</a></li>
+        
+         </ul> 
+   </nav>
+       
+        <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="menuting menutop">Hjem</a>
+        <a href="portfolio.html" class="menuting">Portfolio</a>
+        <a href="about.html" class="menuting">Om mig</a>
+        <a href="https://martinwinklerblog.wordpress.com/" target="_blank">Blog</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">
+            <div class="container" onclick="myFunction2(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+        </a>
+    </nav>
+        
+    </header>
+    
+    <hr>
+    
+    <div class="wrapper">
+    <div class="case1">
+    <h2 class="portfoliooverskrift">Aarhus Kulturby</h2>
+<a href="case1.html">
+    <img class="caseimg" src="images/case1.jpg" alt="Case1"></a>
+        </div>
+       
+    <div class="case2">
+    <h2 class="portfoliooverskrift">Online Magazine</h2>
+<a href="case2.html">    
+    <img class="caseimg" src="images/case2.jpg" alt="Case2"></a>
+        </div>
+        
+    <div class="case3">    
+    <h2 class="portfoliooverskrift">Responsive Web</h2>
+<a href="case3.html">    
+    <img class="caseimg" src="images/case3.jpg" alt="Case3"></a>
+        </div>    
+    </div>
+    
+    <hr>
+    
+     <footer>
+    <p class="copyright">
+        &copy;Martin Winkler 2017
+        </p>
+         
+        <div class="footersamling">
+            
+        
+        <div class="media">
+        <a href="https://www.facebook.com/MartinWinklerTheOneAndOnly" target="_blank">
+            <img src="images/facebook.png" width="50" alt="Facebook"></a>
+        <a href="https://www.instagram.com/martinwinklerdk/" target="_blank">
+            <img src="images/instagram.png" width="50" alt="Instagram"></a> 
+        </div>  
+         </div>
+
+       
+         
+    </footer>
+    
+     <script>
+        /*Fra w3schools start*/
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+        function myFunction2(x) {
+            x.classList.toggle("change");
+        }
+
+        /*Fra w3schools Slut*/
+
+    </script>
+
+    
+</body>
+</html>

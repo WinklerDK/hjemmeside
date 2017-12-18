@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8">
+	<title>About</title>
+    <link rel="icon" type="logo/png" href="images/fanelogo.png"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="description" content="Om mig - Kontak oplysninger og sociale medier">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+    
+<body>
+    <header>
+        
+         <h1 class="mobiloverskrift">
+    =Om mig=
+    </h1>
+        
+         <a href="index.html">
+             <img class="logo" src="images/logo2.png" alt="Logo"></a>
+        
+        <nav class="menu2">
+            
+         <ul>
+               <li><a href="index.html">Hjem</a></li>
+               <li><a href="portfolio.html">Portfolio</a></li>
+               <li><a href="about.html">Om mig</a></li>
+               <li><a href="https://martinwinklerblog.wordpress.com/" target="_blank">Blog</a></li>
+        
+         </ul> 
+   </nav>
+        
+         <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="menuting menutop">Hjem</a>
+        <a href="portfolio.html" class="menuting">Portfolio</a>
+        <a href="about.html" class="menuting">Om mig</a>
+        <a href="https://martinwinklerblog.wordpress.com/" target="_blank">Blog</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">
+            <div class="container" onclick="myFunction2(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+        </a>
+    </nav>
+        
+    </header>
+    
+    <hr>
+    
+    <h1 class="aboutme">Om mig</h1>
+    
+    <img class="mig" src="images/mig.jpg" alt="Mig">
+    
+    <p class="ommig">Navnet er Martin Winkler, og jeg er 22 år.<br>
+Jeg er født og opvokset i Aarhus sammen med min mor og min tvillingbror, men lige nu bor jeg sammen med 2 roommates i Risskov.<br>
+Jeg er en glad og udadvendt dreng som elsker at prøve nye ting og tager glædeligt imod nye udfordringer. 
+Jeg er meget social anlagt, jeg kan rigtig godt lide at have en social hverdag i nærheden af andre mennesker, frem for at sidde der hjemme.<br>
+Jeg er på nuværende tidspunkt studerende på Aarhus Erhvervsakademi, kommunikation og multimediedesign
+</p>
+    
+    <hr>
+    
+    <div class="kontakt">
+    <h1>Kontakt</h1>
+    
+     <h2>TLF:</h2>
+    <a class="kontaktlink" href="tel:+4552705964">+45 52 70 59 64</a>
+    
+    <h2>E-mail:</h2>
+    <a class="kontaktlink" href="mailto:martinwinkler@hotmail.dk">martinwinkler@hotmail.dk</a>
+        
+    <p>Derudover kan jeg kontaktes på de sociale medier angivet nedenfor</p>
+        
+    </div>
+    
+    <hr>
+
+     <footer>
+    <p class="copyright">
+        &copy;Martin Winkler 2017
+        </p>
+         
+        <div class="footersamling">
+            
+        
+        <div class="media">
+        <a href="https://www.facebook.com/MartinWinklerTheOneAndOnly" target="_blank">
+            <img src="images/facebook.png" width="50" alt="Facebook"></a>
+        <a href="https://www.instagram.com/martinwinklerdk/" target="_blank">
+            <img src="images/instagram.png" width="50" alt="Instagram"></a> 
+        </div>  
+         </div>
+
+       
+         
+    </footer>
+    
+    <script>
+        /*Fra w3schools start*/
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+        function myFunction2(x) {
+            x.classList.toggle("change");
+        }
+
+        /*Fra w3schools Slut*/
+
+    </script>
+    
+</body>
+</html>
